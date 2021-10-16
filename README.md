@@ -25,7 +25,7 @@ We then ran the data thru the K-Means model using n_clusters of 4, followed by v
 ### Scaling the Data
 We used further code to scale the TotalCoinSupply and TotalCoinsMined fields utilizing the MinMaxScaler method: `clustered_scaled = MinMaxScaler().fit_transform(clustered_df[['TotalCoinSupply', 'TotalCoinsMined']])`.  Finally we produced a 2D scatter plot
 
-![ScatterPlot](Resources/ScatterPlot)
+![ScatterPlot](Resources/ScatterPlot.png)
 
 
 
