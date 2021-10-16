@@ -20,12 +20,12 @@ The next step we used PCA to narrow down 3 principal components.  We then create
 
 We then ran the data thru the K-Means model using n_clusters of 4, followed by visualizing the data in a 3D plot and creating a table of the data:
 
-![Table](Resource/Table.png)
+![Table](Resources/Table.png)
 
 ### Scaling the Data
 We used further code to scale the TotalCoinSupply and TotalCoinsMined fields utilizing the MinMaxScaler method: `clustered_scaled = MinMaxScaler().fit_transform(clustered_df[['TotalCoinSupply', 'TotalCoinsMined']])`.  Finally we produced a 2D scatter plot
 
-![ScatterPlot](Resource/ScatterPlot)
+![ScatterPlot](Resources/ScatterPlot)
 
 
 
